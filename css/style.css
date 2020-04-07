@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+
+  font-family: 'Ubuntu Condensed', sans-serif;
+  width: auto;
+}
+
+
+.TOP {
+  background-color: #222831;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+
+
+}
+
+.MIDDLE {
+  background-color: #393e46;
+  height: 350px;
+  text-align: left;
+  width: auto;
+
+}
+
+
+
+.head1 {
+  color: white;
+  font-family: 'Chilanka', cursive;
+}
+
+table{
+  text-align: left;
+  position: absolute;
+  left: 10%
+}
+
+.spa {
+  text-decoration: underline;
+}
+
+.botcloud{
+  position:absolute;
+
+}
+.topcloud{
+  position: absolute;
+  left: 290px
+}
+
+.skills{
+  background-color: #00adb5;
+  height: 200px;
+  width: auto;
+text-align: center;
+}
+
+.BOTTOM {
+
+  background-color: #eeeeee;
+  height: 80px;
+  width: auto;
+  text-align: center;
+
+}

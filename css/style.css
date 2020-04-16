@@ -1,67 +1,100 @@
 body {
-  margin: 0;
-
+  margin: 0px;
   font-family: 'Ubuntu Condensed', sans-serif;
   width: auto;
+  text-align: center;
 }
 
-
+a{
+margin: 0px 5px;
+padding: 10px;
+}
 .TOP {
   background-color: #222831;
-  margin: 0;
   padding: 20px;
   text-align: center;
-
-
 }
 
-.MIDDLE {
-  background-color: #393e46;
-  height: 350px;
-  text-align: left;
-  width: auto;
-
+.botcloud {
+  position: absolute;
 }
 
-
+.topcloud {
+  position: absolute;
+  left: 290px
+}
 
 .head1 {
   color: white;
   font-family: 'Chilanka', cursive;
+  font-size: 50px;
+  margin: 50px auto 0 auto;
+  line-height: 1;
 }
 
-table{
-  text-align: left;
-  position: absolute;
-  left: 10%
+.head1-2 {
+  color: white;
+  font-family: 'Chilanka', cursive;
+  font-size: 1.4rem;
+  font-weight: normal;
 }
 
 .spa {
   text-decoration: underline;
 }
 
-.botcloud{
-  position:absolute;
-
-}
-.topcloud{
-  position: absolute;
-  left: 290px
+.MIDDLE {
+  background-color: #393e46;
+  height: 350px;
 }
 
-.skills{
+.h2mid {
+  text-align: left;
+  color: white;
+}
+
+.pmid1 {
+  color: black;
+  text-align: left;
+  line-height: 2;
+  width: 50%
+}
+
+.pcimage {
+  width: 8%;
+  border-radius: 130%;
+  float: left;
+  margin-right: 30px;
+  margin-top: 50px;
+}
+
+.pmid2 {
+  color: black;
+  text-align: right;
+  line-height: 2
+}
+
+.webimage {
+  width: 7%;
+  border-radius: 90%;
+  background-color: #f2a365;
+  float: right;
+  margin-left: 30px;
+}
+
+.skills {
   background-color: #00adb5;
-  height: 200px;
-  width: auto;
-text-align: center;
+  height: auto;
+  text-align: center;
+}
+
+.h3skill {
+  margin: 0px;
 }
 
 .BOTTOM {
-
   background-color: #eeeeee;
-  height: 50px;
+  height: 70px;
   width: auto;
   text-align: center;
-
-
 }
